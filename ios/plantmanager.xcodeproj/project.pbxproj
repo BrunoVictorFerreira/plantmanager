@@ -114,7 +114,6 @@
 				27D4DD76A2DF20BC66B9446E /* Pods-plantmanager-plantmanagerTests.debug.xcconfig */,
 				B0895957796A7C3D9ABE460B /* Pods-plantmanager-plantmanagerTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -485,6 +484,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DS7899P79N;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = plantmanager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -511,6 +511,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DS7899P79N;
 				INFOPLIST_FILE = plantmanager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
