@@ -16,6 +16,7 @@
 		221DF6D72631B25A00C5A464 /* Jost-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 221DF6D22631B25A00C5A464 /* Jost-Light.ttf */; };
 		221DF6D82631B25A00C5A464 /* Jost-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 221DF6D32631B25A00C5A464 /* Jost-Medium.ttf */; };
 		221DF6DF2631B54400C5A464 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		225375232631F5F100CB2C27 /* libswiftWebKit.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 225375222631F5F100CB2C27 /* libswiftWebKit.tbd */; };
 		46BE873D55FA54BA5E76A2BA /* libPods-plantmanager-plantmanagerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7EFC7EF4843576D99ED3AC7 /* libPods-plantmanager-plantmanagerTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		A1A036DE7948CEE641CC81E2 /* libPods-plantmanager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 649FD579D6EDB2520656B06C /* libPods-plantmanager.a */; };
@@ -48,6 +49,7 @@
 		221DF6D12631B25A00C5A464 /* Jost-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Jost-SemiBold.ttf"; sourceTree = "<group>"; };
 		221DF6D22631B25A00C5A464 /* Jost-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Jost-Light.ttf"; sourceTree = "<group>"; };
 		221DF6D32631B25A00C5A464 /* Jost-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Jost-Medium.ttf"; sourceTree = "<group>"; };
+		225375222631F5F100CB2C27 /* libswiftWebKit.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftWebKit.tbd; path = usr/lib/swift/libswiftWebKit.tbd; sourceTree = SDKROOT; };
 		27D4DD76A2DF20BC66B9446E /* Pods-plantmanager-plantmanagerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-plantmanager-plantmanagerTests.debug.xcconfig"; path = "Target Support Files/Pods-plantmanager-plantmanagerTests/Pods-plantmanager-plantmanagerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2B4F76D58299402298FDB87D /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
 		3B4DE774CE9C4DF9B6B900C6 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				225375232631F5F100CB2C27 /* libswiftWebKit.tbd in Frameworks */,
 				A1A036DE7948CEE641CC81E2 /* libPods-plantmanager.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -125,6 +128,7 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				225375222631F5F100CB2C27 /* libswiftWebKit.tbd */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				649FD579D6EDB2520656B06C /* libPods-plantmanager.a */,
 				D7EFC7EF4843576D99ED3AC7 /* libPods-plantmanager-plantmanagerTests.a */,
@@ -551,6 +555,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/swift",
+				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -576,6 +584,10 @@
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/swift",
 				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
